@@ -1,4 +1,4 @@
-import { IPublishParams } from '@stomp/stompjs';
+import { IPublishParams } from '@bjnowak/stompjs';
 /**
  * Additional options for [RxStomp#publish]{@link RxStomp#publish}
  *

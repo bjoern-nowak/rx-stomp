@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs'), require('@stomp/stompjs'), require('uuid')) :
-    typeof define === 'function' && define.amd ? define(['exports', 'rxjs', '@stomp/stompjs', 'uuid'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('rxjs'), require('@bjnowak/stompjs'), require('uuid')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'rxjs', '@bjnowak/stompjs', 'uuid'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.RxStomp = {}, global.rxjs, global.StompJs, global.uuid));
 })(this, (function (exports, rxjs, stompjs, uuid) { 'use strict';
 

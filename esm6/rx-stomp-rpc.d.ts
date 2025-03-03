@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { IMessage, IPublishParams } from '@stomp/stompjs';
+import { IMessage, IPublishParams } from '@bjnowak/stompjs';
 import { RxStomp } from './rx-stomp.js';
 import { RxStompRPCConfig } from './rx-stomp-rpc-config.js';
 /**

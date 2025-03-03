@@ -1,4 +1,4 @@
-import { debugFnType, IFrame, StompHeaders, Versions } from '@stomp/stompjs';
+import { debugFnType, frameCallbackType, IFrame, StompHeaders, Versions } from '@bjnowak/stompjs';
 import { RxStomp } from './rx-stomp.js';
 /**
  * Represents a configuration object for RxSTOMP.
@@ -170,4 +170,5 @@ export declare class RxStompConfig {
      * the websocket.
      */
     correlateErrors?: (error: IFrame) => string;
+    outgoingFrameInterceptors?: frameCallbackType[];
 }

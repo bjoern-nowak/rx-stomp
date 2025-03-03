@@ -1,5 +1,5 @@
 import { BehaviorSubject, Observable, Subject } from 'rxjs';
-import { Client, debugFnType, IFrame, IMessage, publishParams, StompHeaders } from '@stomp/stompjs';
+import { Client, debugFnType, IFrame, IMessage, publishParams, StompHeaders } from '@bjnowak/stompjs';
 import { RxStompConfig } from './rx-stomp-config.js';
 import { IRxStompPublishParams } from './i-rx-stomp-publish-params.js';
 import { RxStompState } from './rx-stomp-state.js';

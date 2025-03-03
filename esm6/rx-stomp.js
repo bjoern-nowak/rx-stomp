@@ -1,5 +1,5 @@
 import { BehaviorSubject, filter, firstValueFrom, Observable, share, Subject, take, } from 'rxjs';
-import { Client, } from '@stomp/stompjs';
+import { Client, } from '@bjnowak/stompjs';
 import { RxStompState } from './rx-stomp-state.js';
 /**
  * This is the main Stomp Client.

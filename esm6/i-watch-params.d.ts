@@ -1,4 +1,4 @@
-import { StompHeaders } from '@stomp/stompjs';
+import { StompHeaders } from '@bjnowak/stompjs';
 /**
  * Options for [RxStomp#watch]{@link RxStomp#watch}.
  *

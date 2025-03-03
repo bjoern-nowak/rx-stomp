@@ -1,7 +1,7 @@
 {
-  "name": "@stomp/rx-stomp",
-  "version": "2.0.0",
-  "description": "RxJS STOMP client for Javascript and Typescript",
+  "name": "@bjnowak/rx-stomp",
+  "version": "2.1.0-alpha",
+  "description": "stomp-js/rx-stomp but dependent on @bjnowak/stompjs",
   "scripts": {
     "clean": "rm -rf bundles esm6",
     "rollup": "rollup -c --bundleConfigAsCjs && rm -f bundles/*.d.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stomp-js/rx-stomp.git"
+    "url": "git+https://github.com/bjoern-nowak/rx-stomp.git"
   },
   "keywords": [
     "STOMP",
@@ -24,12 +24,12 @@
     "RxJS",
     "SockJS"
   ],
-  "author": "deepak@kreatio.com",
+  "author": "https://github.com/bjoern-nowak",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/stomp-js/rx-stomp/issues"
+    "url": "https://github.com/bjoern-nowak/rx-stomp/issues"
   },
-  "homepage": "https://github.com/stomp-js/rx-stomp#readme",
+  "homepage": "https://github.com/bjoern-nowak/rx-stomp#readme",
   "peerDependencies": {
     "@bjnowak/stompjs": "^7.1.0-alpha",
     "rxjs": "^7.2.0",
