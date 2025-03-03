@@ -2,7 +2,7 @@ import { filter, first, Observable, Observer, Subscription } from 'rxjs';
 
 import { v4 as uuid } from 'uuid';
 
-import { IMessage, IPublishParams, StompHeaders } from '@stomp/stompjs';
+import { IMessage, IPublishParams, StompHeaders } from '@bjnowak/stompjs';
 
 import { RxStomp } from './rx-stomp.js';
 import {

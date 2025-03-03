@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/stomp-js/rx-stomp#readme",
   "peerDependencies": {
-    "@stomp/stompjs": "^7.0.0",
+    "@bjnowak/stompjs": "^7.1.0-alpha",
     "rxjs": "^7.2.0",
     "uuid": "^9.0.0"
   },

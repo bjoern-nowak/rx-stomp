@@ -16,4 +16,4 @@ export {
   Versions,
   StompSocketState,
   ITransaction,
-} from '@stomp/stompjs';
+} from '@bjnowak/stompjs';

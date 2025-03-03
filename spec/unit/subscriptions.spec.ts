@@ -4,7 +4,7 @@ import 'jasmine';
 
 import { filter, firstValueFrom } from 'rxjs';
 
-import { Message } from '@stomp/stompjs';
+import { Message } from '@bjnowak/stompjs';
 
 import { RxStomp, RxStompState } from '../../src';
 

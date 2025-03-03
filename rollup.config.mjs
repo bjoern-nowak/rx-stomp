@@ -7,7 +7,7 @@ const umdConf = {
   name: 'RxStomp',
   sourcemap: true,
   globals: {
-    '@stomp/stompjs': 'StompJs',
+    '@bjnowak/stompjs': 'StompJs',
     rxjs: 'rxjs',
     uuid: 'uuid',
   },

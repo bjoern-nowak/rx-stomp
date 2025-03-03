@@ -19,7 +19,7 @@ import {
   StompConfig,
   StompHeaders,
   StompSubscription,
-} from '@stomp/stompjs';
+} from '@bjnowak/stompjs';
 
 import { RxStompConfig } from './rx-stomp-config.js';
 import { IRxStompPublishParams } from './i-rx-stomp-publish-params.js';
